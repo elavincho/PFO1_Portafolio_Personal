@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+.contenedor-header-nav {
+    border-radius: 10px;
+    border: solid 1px whitesmoke;
+    margin: 20px;
+    background-color: rgb(30, 30, 30);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.img-logo {
+    width: 120px;
+    height: 120px;
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 10px;
+}
+
+.navegacion a {
+    color: rgb(250, 219, 80);
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-sub-titulo-foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(92, 92, 92);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.img-foto {
+    width: 80px;
+    height: 80px;
+}
+
+.contenedor-seccion {
+    border-radius: 10px;
+    border: solid 1px whitesmoke;
+    margin: 20px;
+    background-color: rgb(30, 30, 30);
+}
+
+.contenedor-secciones {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    border-radius: 10px;
+    border: solid 1px whitesmoke;
+    margin: 20px;
+    background-color: rgb(44, 44, 44);
+    align-items: center;
+}
+
+.sub-titulo {
+    margin: 20px;
+}
+
+.seccion {
+    margin: 20px;
+}
+
+.seccion p {
+    text-indent: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.tarjeta {
+    margin: 20px;
+}
+
+.tarjeta p {
+    text-indent: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.icono {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.contenedor-portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.img-portafolio {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tarjeta-portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 220px;
+}
+
+.tarjeta-portafolio a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo-tecnologias {
+    width: 100px;
+    height: 100px;
+}
+
+.listas {
+    list-style-type: none;
+    /*Esto hace que no se muestren las viñetas*/
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.contenedor-iframe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+iframe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 220px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario-contacto {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin: 20px;
+}
+
+.form-input {
+    height: 35px;
+    margin-top: 20px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.form-text-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 75px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.btn-enviar {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(78, 161, 71);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.contenedor-btn-enviar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo-footer {
+    width: 75px;
+    height: 75px;
+}
+
+.text-footer {
+    color: #fff;
+    line-height: 15px;
+    text-align: right;
+}
+
+.contenedor-dev {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dev {
+    color: #fff;
+    text-decoration: none;
+    text-indent: 30px;
+}
+
+.redes {
+    width: 20px;
+    height: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-right: 20px;
+}
