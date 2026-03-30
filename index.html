@@ -28,7 +28,6 @@
         <!-- <<< ----------- * ----------- Navegación ----------- * ----------- >>> -->
         <nav class="navegacion">
             <a href="#sobre-mi">Sobre Mí</a>
-            <a href="#haciendo">Que estoy Haciendo!</a> <!-- Tarjetas -->
             <a href="#habilidades">Habilidades</a>
             <a href="#portafolio">Portafolio</a>
             <a href="#peliculas">Peliculas</a>
@@ -62,81 +61,89 @@
                     fácil de usar.
                 </p>
             </section>
+
+            <div class="contenedor-seccion">
+
+                <h2 class="sub-titulo">Que estoy Haciendo!</h2>
+
+                <!-- <<< ----------- * ----------- Tarjetas ----------- * ----------- >>> -->
+                <div class="contenedor-secciones">
+
+                    <img class="icono" src="./img/icon-design.svg" alt="diseño-web" />
+
+                    <section class="tarjeta">
+                        <h3>Diseño Web</h3>
+                        <p>
+                            Transformo ideas en experiencias digitales atractivas y funcionales. Mi enfoque combina
+                            estética,
+                            experiencia del usuario y tecnología para crear sitios web que no solo se vean bien, sino
+                            que
+                            cumplan
+                            sus
+                            objetivos.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="contenedor-secciones">
+
+                    <img class="icono" src="./img/icon-dev.svg" alt="app-web" />
+
+                    <section class="tarjeta">
+                        <h3>Aplicaciones Web</h3>
+                        <p>
+                            Desarrollador Web en constante aprendizaje con experiencia en crear aplicaciones escalables
+                            con
+                            Java,
+                            Spring
+                            Boot y MySQL, desde la interfaz hasta la lógica del servidor. Me gusta construir APIs
+                            eficientes
+                            y
+                            combinarlas con una Web accesible con diseño responsive para interfaces rápidas e
+                            intuitivas.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="contenedor-secciones">
+
+                    <img class="icono" src="./img/icon-app.svg" alt="app-movil" />
+
+                    <section class="tarjeta">
+                        <h3>Aplicaciones Móviles</h3>
+                        <p>
+                            Desarrollador Android en formación, con proyectos prácticos en kotlin. Autodidacta,
+                            resolutivo,
+                            comprometido
+                            en escribir código limpio y escalable.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="contenedor-secciones">
+
+                    <img class="icono" src="./img/icon-dev.svg" alt="applicacion-escritorio" />
+
+                    <section class="tarjeta">
+                        <h3>Aplicaciones de Escritorio</h3>
+                        <p>
+                            Desarrollo Aplicaciones de Escritorio con proyectos en Java y C#/.NET. Apasionado por crear
+                            software
+                            útil,
+                            eficiente y con interfaces limpias.
+                        </p>
+                    </section>
+                </div>
+            </div>
         </div>
 
-        <div class="contenedor-seccion">
 
-            <h2 class="sub-titulo" id="haciendo">Que estoy Haciendo!</h2>
-
-            <!-- <<< ----------- * ----------- Tarjetas ----------- * ----------- >>> -->
-            <div class="contenedor-secciones">
-
-                <img class="icono" src="./img/icon-design.svg" alt="diseño-web" />
-
-                <section class="tarjeta">
-                    <h3>Diseño Web</h3>
-                    <p>
-                        Transformo ideas en experiencias digitales atractivas y funcionales. Mi enfoque combina
-                        estética,
-                        experiencia del usuario y tecnología para crear sitios web que no solo se vean bien, sino que
-                        cumplan
-                        sus
-                        objetivos.
-                    </p>
-                </section>
-            </div>
-
-            <div class="contenedor-secciones">
-
-                <img class="icono" src="./img/icon-dev.svg" alt="app-web" />
-
-                <section class="tarjeta">
-                    <h3>Aplicaciones Web</h3>
-                    <p>
-                        Desarrollador Web en constante aprendizaje con experiencia en crear aplicaciones escalables con
-                        Java,
-                        Spring
-                        Boot y MySQL, desde la interfaz hasta la lógica del servidor. Me gusta construir APIs eficientes
-                        y
-                        combinarlas con una Web accesible con diseño responsive para interfaces rápidas e intuitivas.
-                    </p>
-                </section>
-            </div>
-
-            <div class="contenedor-secciones">
-
-                <img class="icono" src="./img/icon-app.svg" alt="app-movil" />
-
-                <section class="tarjeta">
-                    <h3>Aplicaciones Móviles</h3>
-                    <p>
-                        Desarrollador Android en formación, con proyectos prácticos en kotlin. Autodidacta, resolutivo,
-                        comprometido
-                        en escribir código limpio y escalable.
-                    </p>
-                </section>
-            </div>
-
-            <div class="contenedor-secciones">
-
-                <img class="icono" src="./img/icon-dev.svg" alt="applicacion-escritorio" />
-
-                <section class="tarjeta">
-                    <h3>Aplicaciones de Escritorio</h3>
-                    <p>
-                        Desarrollo Aplicaciones de Escritorio con proyectos en Java y C#/.NET. Apasionado por crear
-                        software
-                        útil,
-                        eficiente y con interfaces limpias.
-                    </p>
-                </section>
-            </div>
-        </div>
 
 
         <!-- <<< ----------- * ----------- Habilidades ----------- * ----------- >>> -->
         <div class="contenedor-seccion">
-            <h2 class="sub-titulo" id="habilidades">Conozco estas Tecnologías</h2>
+            <h2 class="sub-titulo" id="habilidades">Habilidades</h2>
+            <h3 class="sub-titulo">Conozco estas Tecnologías</h3>
 
 
             <section class="contenedor-seccion">
@@ -389,39 +396,128 @@
 
             <h2 class="sub-titulo" id="peliculas">Estas son mis peliculas favoritas</h2>
 
-            <div class="contenedor-seccion">
-                <div class="contenedor-iframe">
+            <div class="contenedor-peliculas">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LYS2O1nl9iM?si=DHWorHSH8Fs9Ec_R"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LYS2O1nl9iM?si=DHWorHSH8Fs9Ec_R"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2-7R0TvOg7w?si=IC-cK8OjNc6TLGDN"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xFALsPCeJvE?si=ufo4cwLS_waye8CO"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qfwix8Xg1nI?si=p5CM0Blh-eZBhoNe"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pA3_JYkhqDM?si=P-pS_rUhiWuBUqtj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gZBeAqXKq3Q?si=kkh7SSqCLOwd06h0"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                </div>
+                <section class="tarjeta">
+                    <h3>Interstelar</h3>
+                    <p>
+                        Dirigida por Christopher Nolan, es una épica de ciencia ficción que trasciende las
+                        fronteras del tiempo y el espacio. Ambientada en un futuro cercano donde la Tierra agoniza
+                        debido a plagas agrícolas y tormentas de polvo, la historia sigue a Joseph Cooper, un ex-piloto
+                        de la NASA convertido en granjero, quien es reclutado para una misión desesperada: liderar una
+                        expedición a través de un agujero de gusano cerca de Saturno en busca de un nuevo hogar para la
+                        humanidad.
+                    </p>
+                </section>
             </div>
+
+            <div class="contenedor-peliculas">
+
+                <section class="tarjeta">
+                    <h3>Marte - Misión Rescate</h3>
+                    <p>
+                        Dirigida por Ridley Scott, narra la increíble lucha por la supervivencia del astronauta Mark
+                        Watney, quien queda varado en Marte tras ser dado por muerto durante una tormenta. Sin
+                        comunicación con la Tierra y con suministros limitados, Watney utiliza su ingenio científico y
+                        un humor inquebrantable para cultivar alimentos en suelo hostil. Es una oda a la resiliencia
+                        humana y al ingenio técnico, combinando tensión constante con un optimismo inspirador frente a
+                        la adversidad espacial.
+                    </p>
+                </section>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2-7R0TvOg7w?si=IC-cK8OjNc6TLGDN"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="contenedor-peliculas">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xFALsPCeJvE?si=ufo4cwLS_waye8CO"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <section class="tarjeta">
+                    <h3>Talentos Ocultos</h3>
+                    <p>
+                        Narra la historia real e inspiradora de tres brillantes mujeres afroamericanas que trabajaron en
+                        la NASA durante la carrera espacial de los años 60. Katherine Johnson, Dorothy Vaughan y Mary
+                        Jackson superaron los prejuicios raciales y de género de la época, convirtiéndose en los
+                        cerebros matemáticos detrás del histórico lanzamiento del astronauta John Glenn. Es un poderoso
+                        tributo al intelecto, la perseverancia y la lucha por los derechos civiles, demostrando que el
+                        talento no tiene color.
+                    </p>
+                </section>
+            </div>
+
+            <div class="contenedor-peliculas">
+
+                <section class="tarjeta">
+                    <h3>Ratatouille</h3>
+                    <p>
+                        Una joya de Disney-Pixar, cuenta la historia de Remy, una rata con un paladar sofisticado que
+                        sueña con ser un gran chef en París. A través de una alianza improbable con el torpe joven
+                        Linguini, Remy logra cocinar en secreto en un prestigioso restaurante, desafiando las normas
+                        sociales y biológicas. Con una animación exquisita y un mensaje profundo sobre la pasión y el
+                        talento, la película nos enseña que "cualquiera puede cocinar" y que el arte surge de los
+                        lugares más inesperados.
+                    </p>
+                </section>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qfwix8Xg1nI?si=p5CM0Blh-eZBhoNe"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="contenedor-peliculas">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pA3_JYkhqDM?si=P-pS_rUhiWuBUqtj"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <section class="tarjeta">
+                    <h3>El Padrino</h3>
+                    <p>
+                        La obra maestra de Francis Ford Coppola, es un drama criminal que redefine el cine de gánsteres.
+                        La historia sigue a la familia Corleone, liderada por el patriarca Vito, mientras navegan por el
+                        poder, la traición y la lealtad en la Nueva York de la posguerra. La trama se centra en la
+                        transformación de Michael Corleone, quien pasa de ser un héroe de guerra ajeno a los negocios
+                        turbios a convertirse en un despiadado jefe mafioso. Es un retrato magistral sobre la corrupción
+                        del alma y el peso de la herencia familiar.
+                    </p>
+                </section>
+            </div>
+
+            <div class="contenedor-peliculas">
+
+                <section class="tarjeta">
+                    <h3>Ralph el Demoledor</h3>
+                    <p>
+                        Una colorida y creativa aventura de Disney que explora la vida secreta dentro de las máquinas de
+                        arcade. Ralph, el villano de su videojuego, está cansado de ser el "malo" y busca demostrar que
+                        tiene un corazón de héroe. En su viaje por otros mundos digitales, conoce a la traviesa
+                        Vanellope von Schweetz. Juntos descubren que no necesitan cambiar quiénes son para ser valiosos,
+                        entregando una poderosa lección sobre la autoaceptación y la amistad verdadera.
+                    </p>
+                </section>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gZBeAqXKq3Q?si=kkh7SSqCLOwd06h0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
         </div>
 
         <!-- <<< ----------- * ----------- Formulario de Contacto ----------- * ----------- >>> -->
@@ -473,14 +569,16 @@
             <div class="mr20">
                 <a href="/index.html"><img class="logo-footer" src="./img/logo.ico" alt="logo"></a>
             </div>
+
             <div class="text-footer mr20">
                 <p>Av. Libertador 1000</p>
                 <p>Buenos Aires - Argentina</p>
                 <p>© Copyright 2026 - elavincho</p>
                 <p>Todos los derechos reservados</p>
             </div>
-
         </div>
+        <!-- <<< ----------- * ----------- Aclaración ----------- * ----------- >>> -->
+        <!-- elavincho.dev es mi apodo como desarrollador -->
         <div class="contenedor-dev">
             <a class="dev" target="_blank" href="https://elavinchoweb.netlify.app/">Powered by <b>elavinchodev</b></a>
 

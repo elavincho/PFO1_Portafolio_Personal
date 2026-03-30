@@ -49,7 +49,7 @@ body {
 }
 
 .navegacion a {
-    color: rgb(250, 219, 80);
+    color: rgb(255, 216, 87);
     margin-right: 20px;
     text-decoration: none;
     font-family: Geneva, Tahoma, sans-serif;
@@ -166,6 +166,16 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
+}
+
+.contenedor-peliculas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    border: solid 1px whitesmoke;
+    margin: 20px;
+    background-color: rgb(44, 44, 44);
+    align-items: center;
 }
 
 .contenedor-iframe {
