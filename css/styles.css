@@ -7,6 +7,11 @@
 body {
     background-color: rgb(0, 0, 0);
     color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Montserrat", "IBM Plex Sans", sans-serif;
+    font-weight: 100;
 }
 
 .contenedor-header-nav {
@@ -20,6 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -39,6 +45,7 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     color: whitesmoke;
+    font-family: "Playfair Display", serif;
 }
 
 .navegacion {
@@ -46,13 +53,20 @@ body {
     flex-wrap: wrap;
     justify-content: right;
     padding: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+.navegacion a:hover {
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
 }
 
 .navegacion a {
     color: rgb(255, 216, 87);
-    margin-right: 20px;
     text-decoration: none;
     font-family: Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
 
 .contenedor-sub-titulo-foto {
@@ -95,6 +109,11 @@ body {
 
 .sub-titulo {
     margin: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
 }
 
 .seccion {
@@ -105,10 +124,16 @@ body {
     text-indent: 20px;
     margin-top: 20px;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tarjeta {
     margin: 20px;
+}
+
+.contenedor-secciones:hover {
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
 }
 
 .tarjeta p {
@@ -131,6 +156,7 @@ body {
     align-items: center;
 }
 
+
 .img-portafolio {
     width: 250px;
     height: 150px;
@@ -146,6 +172,12 @@ body {
     height: 220px;
 }
 
+.tarjeta-portafolio:hover {
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+}
+
+
 .tarjeta-portafolio a {
     text-decoration: none;
     color: whitesmoke;
@@ -154,6 +186,10 @@ body {
 .logo-tecnologias {
     width: 100px;
     height: 100px;
+}
+
+.logo-tecnologias:hover {
+    filter: grayscale(100%);
 }
 
 .listas {
@@ -176,6 +212,11 @@ body {
     margin: 20px;
     background-color: rgb(44, 44, 44);
     align-items: center;
+}
+
+.contenedor-peliculas:hover {
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
 }
 
 .contenedor-iframe {
@@ -213,6 +254,7 @@ iframe {
     margin-top: 20px;
     border: solid 1px;
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .form-text-area {
@@ -222,6 +264,8 @@ iframe {
     height: 75px;
     margin: 20px;
     border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .btn-enviar {
@@ -229,6 +273,11 @@ iframe {
     height: 40px;
     background-color: rgb(78, 161, 71);
     color: whitesmoke;
+    border-radius: 5px;
+}
+
+.btn-enviar:hover {
+    background-color: rgb(22, 211, 5);
     border-radius: 5px;
 }
 
@@ -268,7 +317,13 @@ iframe {
 .dev {
     color: #fff;
     text-decoration: none;
-    text-indent: 30px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.dev:hover {
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
 }
 
 .redes {
@@ -279,6 +334,12 @@ iframe {
 .redes-sociales {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-right: 20px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.redes-sociales li:hover {
+    background-color: rgb(92, 92, 92);
+    border-radius: 100%;
+    padding: 10px;
 }
