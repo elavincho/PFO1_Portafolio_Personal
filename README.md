@@ -50,9 +50,9 @@ El proyecto tiene el objetivo de poner en práctica los conocimientos adquiridos
 
 [✔️] Proyecto subido al repositorio.
 
-[✔️] Proyecto publicado utilizando GitHub Pages.
+[✔️] Proyecto publicado utilizando Vercel/Netlify.
 
-[✔️] En el "README.md" se indica la URL de GitHub Pages.
+[✔️] En el "README.md" se indica la URL de  Vercel/Netlify.
 
 ### Uso de Google Fonts:
 
@@ -62,7 +62,7 @@ El proyecto tiene el objetivo de poner en práctica los conocimientos adquiridos
 
 [✔️] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
 
-**Respuesta:** Además de tener un buen diseño, me parecio la más apropiada ya que se diferencia completamente del resto de las fuentes del proyecto.
+**Respuesta:** Además de tener un buen diseño, me pareció la más apropiada ya que se diferencia completamente del resto de las fuentes del proyecto.
 
 ### HTML:
 
