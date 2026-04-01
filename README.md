@@ -6,7 +6,7 @@
 
 ### Landing Page de Portafolio Personal (HTML y CSS)
 
-Esta práctica formativa de la materia **Front End** tiene como objetivo desarrollar un portafolio personal utilizando HTML y CSS respectivamente, teniendo en cuenta la descripción del proyecto y el checklist de requerimientos.
+Esta práctica formativa de la materia **Front End** tiene la finalidad de desarrollar un Portafolio Personal utilizando HTML y CSS respectivamente, teniendo en cuenta la descripción del proyecto y el checklist de requerimientos.
 
 ## Fases del proyecto
 - Análisis preliminar
@@ -26,7 +26,11 @@ Esta práctica formativa de la materia **Front End** tiene como objetivo desarro
 
 ## Objetivo del Proyecto
 
-El proyecto tiene la finalidad de poner en práctica los conocimientos adquiridos durante la primera etapa de la materia utilizando las tecnologías HTML y CSS respectivamente. Teniendo en cuenta los requerimientos de la PFO.
+El proyecto tiene el objetivo de poner en práctica los conocimientos adquiridos durante la primera etapa de la materia utilizando las tecnologías HTML y CSS respectivamente. Teniendo en cuenta los requerimientos de la PFO.
+
+## Link del proyecto
+
+* https://pfo-1-frontend.netlify.app/
 
 ## Checklist - Práctica Formativa Obligatoria 1
 
@@ -70,7 +74,7 @@ El proyecto tiene la finalidad de poner en práctica los conocimientos adquirido
 
 [✔️] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
 
-* Secciones obligatorias en "main":
+### Secciones obligatorias en "main":
 
 [✔️] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
 
@@ -107,7 +111,7 @@ adecuada para tu proyecto?
 
 **Respuesta:** Al ser el primer proyecto y no utilizar JavaScript decidí solo tener animaciones simples como hover, que se adaptava perfectamente a un **Portafolio Personal Formal**.
 
-* Consideraciones Adicionales:
+### Consideraciones Adicionales:
   
 [✔️] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 
