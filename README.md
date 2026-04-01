@@ -121,3 +121,13 @@ las imágenes).
 [✔️] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de
 implementación.
 
+## Imágenes del proyecto
+<img src="https://i.ibb.co/pBxY4vT9/header.png" width="200" height="200" alt="header"/>
+<img src="https://i.ibb.co/Z6vbDKMS/tarjetas.png" width="200" height="200" alt="tarjetas" />
+<img src="https://i.ibb.co/F4NH7x91/peliculas.png" width="200" height="200" alt="peliculas"/>
+<img src="https://i.ibb.co/cSZCV86m/habilidades.png" width="200" height="200" alt="habilidades"/>
+<img src="https://i.ibb.co/svLPw8ws/formulario.png" width="200" height="200" alt="formulario">
+<img src="https://i.ibb.co/Z6RB7KH3/header-footer.png" width="200" height="200" alt="footer"/>
+
+
+
