@@ -4,15 +4,19 @@
     padding: 0;
 }
 
+/* Body */
+
 body {
     background-color: rgb(0, 0, 0);
     color: whitesmoke;
     margin-left: 5%;
     margin-right: 5%;
-    /* font-family: 'Poppins', sans-serif; */
+    /* Utilizo la fuente de google fonts */
     font-family: "Montserrat", "IBM Plex Sans", sans-serif;
     font-weight: 100;
 }
+
+/* Header y Navegación */
 
 .contenedor-header-nav {
     border-radius: 10px;
@@ -20,6 +24,8 @@ body {
     margin: 20px;
     background-color: rgb(30, 30, 30);
 }
+
+/* Header */
 
 .header {
     display: flex;
@@ -45,14 +51,18 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     color: whitesmoke;
+    /* Utilizo la fuente de google fonts */
     font-family: "Playfair Display", serif;
 }
+
+/* Navegación  */
 
 .navegacion {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     padding: 10px;
+    /* Utilizo la fuente de google fonts */
     font-family: "IBM Plex Sans", sans-serif;
     margin-bottom: 10px;
 }
@@ -68,6 +78,8 @@ body {
     font-family: Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
+
+/* Sobre Mí */
 
 .contenedor-sub-titulo-foto {
     display: flex;
@@ -90,6 +102,8 @@ body {
     height: 80px;
 }
 
+/* Secciones */
+
 .contenedor-seccion {
     border-radius: 10px;
     border: solid 1px whitesmoke;
@@ -109,10 +123,12 @@ body {
 
 .sub-titulo {
     margin: 20px;
+    /* Utilizo la fuente de google fonts */
     font-family: "Roboto", sans-serif;
 }
 
 h3 {
+    /* Utilizo la fuente de google fonts */
     font-family: "Raleway", sans-serif;
 }
 
@@ -126,6 +142,8 @@ h3 {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Tarjetas */
 
 .tarjeta {
     margin: 20px;
@@ -147,6 +165,8 @@ h3 {
     height: 60px;
     margin-left: 10px;
 }
+
+/* Portafolio */
 
 .contenedor-portafolio {
     display: flex;
@@ -177,11 +197,12 @@ h3 {
     border-radius: 5px;
 }
 
-
 .tarjeta-portafolio a {
     text-decoration: none;
     color: whitesmoke;
 }
+
+/* Habilidades */
 
 .logo-tecnologias {
     width: 100px;
@@ -203,6 +224,8 @@ h3 {
     justify-content: space-between;
     margin: 20px;
 }
+
+/* Peliculas */
 
 .contenedor-peliculas {
     display: grid;
@@ -235,6 +258,8 @@ iframe {
     border-radius: 10px;
     margin: 20px;
 }
+
+/* Formulario */
 
 .formulario {
     display: flex;
@@ -275,6 +300,8 @@ iframe {
     margin: 20px;
 }
 
+/* Botón enviar */
+
 .btn-enviar {
     width: 150px;
     height: 40px;
@@ -290,12 +317,6 @@ iframe {
     border-radius: 5px;
 }
 
-
-/* Escondemos el checkbox real */
-.hidden-checkbox {
-    display: none;
-}
-
 .contenedor-mensaje {
     display: flex;
     width: 100%;
@@ -303,30 +324,7 @@ iframe {
     margin: 20px;
 }
 
-/* Estilo del contenedor del label para que parezca un botón */
-.capa-clic {
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* Mensaje oculto inicialmente */
-.mensaje-exito {
-    display: block;
-    margin-top: 15px;
-    color: green;
-    font-weight: bold;
-    opacity: 0;
-    /* Invisible */
-    transition: opacity 0.4s ease;
-    pointer-events: none;
-}
-
-/* EL TRUCO: Cuando el checkbox está seleccionado (:checked), 
-   buscamos al hermano con la clase .mensaje-exito */
-.hidden-checkbox:checked~.mensaje-exito {
-    opacity: 1;
-    /* Se vuelve visible */
-}
+/* Footer */
 
 .footer {
     display: flex;
@@ -347,6 +345,8 @@ iframe {
     text-align: right;
 }
 
+/* Dev */
+
 .contenedor-dev {
     display: flex;
     flex-wrap: wrap;
@@ -365,6 +365,8 @@ iframe {
     background-color: rgb(92, 92, 92);
     border-radius: 5px;
 }
+
+/* Redes Sociales */
 
 .redes {
     width: 20px;
