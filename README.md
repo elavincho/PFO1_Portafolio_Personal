@@ -30,8 +30,9 @@ El proyecto tiene el objetivo de poner en práctica los conocimientos adquiridos
 
 ## Link del proyecto
 
+* https://pfo-1-portafolio-personal.vercel.app/
 * https://pfo-1-frontend.netlify.app/
-
+  
 ## Checklist - Práctica Formativa Obligatoria 1
 
 ### Estructura del Proyecto:
