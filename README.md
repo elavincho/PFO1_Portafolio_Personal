@@ -109,7 +109,7 @@ tarjetas o botones).
 [✔️] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era
 adecuada para tu proyecto?
 
-**Respuesta:** Al ser el primer proyecto y no utilizar JavaScript decidí solo tener animaciones simples como hover, que se adaptava perfectamente a un **Portafolio Personal Formal**.
+**Respuesta:** Al ser el primer proyecto y no utilizar JavaScript decidí solo tener animaciones simples como hover, que se adapta perfectamente a un **Portafolio Personal Formal**.
 
 ### Consideraciones Adicionales:
   
