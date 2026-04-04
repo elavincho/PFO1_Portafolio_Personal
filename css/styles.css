@@ -1,3 +1,7 @@
+html {
+    font-size: 1.2rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,6 +18,13 @@ body {
     /* Utilizo la fuente de google fonts */
     font-family: "Montserrat", "IBM Plex Sans", sans-serif;
     font-weight: 100;
+}
+
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.5rem;
+    }
 }
 
 /* Header y Navegación */
@@ -53,6 +64,14 @@ body {
     color: whitesmoke;
     /* Utilizo la fuente de google fonts */
     font-family: "Playfair Display", serif;
+}
+
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    .img-logo {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 /* Navegación  */
@@ -100,6 +119,14 @@ body {
 .img-foto {
     width: 80px;
     height: 80px;
+}
+
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    .img-foto {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 /* Secciones */
@@ -166,6 +193,15 @@ h3 {
     margin-left: 10px;
 }
 
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    .icono {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+}
+
 /* Portafolio */
 
 .contenedor-portafolio {
@@ -202,6 +238,32 @@ h3 {
     color: whitesmoke;
 }
 
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    .contenedor-portafolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .img-portafolio {
+        width: 125px;
+        height: 75px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .tarjeta-portafolio {
+        display: flex;
+        flex-wrap: wrap;
+        width: 135px;
+        height: 110px;
+    }
+}
+
 /* Habilidades */
 
 .logo-tecnologias {
@@ -223,6 +285,14 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
+}
+
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    .logo-tecnologias {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 /* Peliculas */
@@ -259,6 +329,28 @@ iframe {
     margin: 20px;
 }
 
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    iframe {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 110px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .contenedor-peliculas {
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 10px;
+        border: solid 1px whitesmoke;
+        margin: 20px;
+        background-color: rgb(44, 44, 44);
+        align-items: center;
+    }
+}
+
 /* Formulario */
 
 .formulario {
@@ -280,6 +372,7 @@ iframe {
     border: solid 1px;
     border-radius: 5px;
     padding-left: 10px;
+    width: 100%;
 }
 
 .form-text-area {
@@ -343,6 +436,14 @@ iframe {
     color: #fff;
     line-height: 15px;
     text-align: right;
+}
+
+/* Pantalla para celulares */
+@media (max-width: 480px) {
+    .logo-footer {
+        width: 45px;
+        height: 45px;
+    }
 }
 
 /* Dev */
