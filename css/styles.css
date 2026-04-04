@@ -323,7 +323,7 @@ h3 {
 iframe {
     display: flex;
     flex-wrap: wrap;
-    width: 270px;
+    width: 85%;
     height: 220px;
     border-radius: 10px;
     margin: 20px;
